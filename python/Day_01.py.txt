@@ -1,0 +1,73 @@
+# Hello World
+
+print("Hello World")
+print()
+
+# Print Without a New Line
+print("Hello World!" ,end=" ")
+print("I'll print on the same line.")
+
+print()
+
+#Print Numbers
+print(3)
+print(4+4)
+print()
+
+#Mix Text and Numbers
+print("Hey, I'm " ,22, "years old \n")
+print("I'm", 25)
+
+
+#Creating a Comment
+
+#This is a comment
+print("Hello, World!  \n")
+print("Hello, World!  \n") #This is a comment
+
+
+
+#Creating Variables
+""" Python has no command for declaring a variable. A variable is created the moment you first assign a value to it. """
+x = 5
+y = "John \n"
+print(x)
+print(y)
+
+#Casting
+x = str(3)    # x'll be '3'
+y= int(3)     # y'll be 3
+z = float(3)  # z will be 3.0
+
+print(type(x))
+print(y)
+print(z)
+
+
+# Legal Variable Names:
+
+myvar = "Google"
+my_var = "SQL"
+_my_var = "Airflow"
+myVar = "Snowflake"
+MYVAR = "Titkok"
+myvar2 = "John \n"
+ 
+
+# Camel Case: Each word, except the first, starts with a capital letter:
+myVarIs = "Google I'm next"
+
+# Pascal Case: Each word starts with a capital letter:
+JohnIsDon = "CN" 
+
+# Snake Case: After everyword there is underscore
+john_the_don = "Hey"
+
+
+# Python Variables - Assign Multiple Values
+  # ManY Values to Multiple Variables
+
+x,y,z = "Orange","Banana","Cat"
+print(x)
+print(y)
+print(z)
